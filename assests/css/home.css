@@ -1,0 +1,23 @@
+.container {
+  display: flex; }
+  .container #feed-post {
+    width: 70%;
+    padding: 10px; }
+    .container #feed-post textarea {
+      width: 20rem;
+      height: 5rem;
+      border-radius: 10px;
+      border: 2px solid black; }
+    .container #feed-post .post {
+      width: 5rem;
+      height: 2rem;
+      text-align: center;
+      font-size: 15px;
+      border-radius: 10px;
+      margin-left: 5px; }
+  .container #user-friend {
+    width: 30%;
+    padding: 10px; }
+  .container #users {
+    width: 30%;
+    padding: 10px; }

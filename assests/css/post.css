@@ -1,0 +1,34 @@
+.container {
+  display: flex; }
+  .container i {
+    margin-left: 0.8rem; }
+  .container i:hover {
+    color: red; }
+  .container input {
+    width: 18rem;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1rem; }
+  .container .comment {
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    justify-content: center;
+    font-weight: 700; }
+  .container .btn1 {
+    cursor: pointer;
+    border: none;
+    background: none; }
+    .container .btn1 i {
+      color: red; }
+    .container .btn1 i:hover {
+      color: blue; }
+  .container .btn2 {
+    cursor: pointer;
+    border: none;
+    background: none; }
+    .container .btn2 i {
+      color: red; }
+    .container .btn2 i:hover {
+      color: blue; }

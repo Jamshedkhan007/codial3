@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+
+    i {
+        margin-left: 0.8rem;
+    }
+    i:hover {
+        color: red;
+    }
+
+    input{
+        width: 18rem;
+        height: 4rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .comment{
+        display: flex;
+        width: 8rem;
+        height: 3rem;
+        justify-content: center;
+        font-weight: 700;
+    }
+    .btn1{
+        cursor: pointer;
+        border: none;
+        background: none;
+
+        i{
+            color: red;
+        }
+        i:hover{
+            color: blue;
+        }
+
+        
+    }
+    .btn2{
+        cursor: pointer;
+        border: none;
+        background: none;
+
+        i{
+            color: red;
+        }
+        i:hover{
+            color: blue;
+        }
+
+        
+    }
+}

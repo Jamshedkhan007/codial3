@@ -1,0 +1,21 @@
+<!-- Change::create a code for chat box -->
+
+<%if(locals.user){%>
+    <div id="user-box">
+        <ul id="chat-message">
+            <li class="other">
+                <span>ohter message</span>
+            </li>
+            <li class="self">
+                <span>Self chat-message</span>
+            </li>
+
+        </ul>
+
+        <div id="input-container">
+            <input id="message-input" placeholder="Type message here....">
+            <button id="send">Send</button>
+        </div>
+    </div>
+
+    <%} %>

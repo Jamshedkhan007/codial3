@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  background-color: #cbe5dc;
+  text-align: center; }
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem; }
+
+input {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 10px; }
+
+.update {
+  width: 5rem;
+  font-size: 15px;
+  cursor: pointer; }
